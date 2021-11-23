@@ -75,6 +75,7 @@ const columns = [
     name: 'desc',
     required: true,
     label: 'Dessert (100g serving)',
+
     align: 'left',
     field: row => row.name,
     format: val => `${val}`,
